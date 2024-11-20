@@ -1,6 +1,21 @@
+<<<<<<< HEAD
 bod
 {
     background-color: rgb(32, 32, 77);
+=======
+/* Styles */
+@import url(contact.css);
+@import url(price.css);
+@import url(services.css);
+/* Fonts --- --- --- */
+
+/* Roboto Font --- --- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face{
+    font-family: Roboto;
+    src: url('../assets/fonts/Roboto-Regular.ttf');
+>>>>>>> e2552418eea2fb0c97f9966d50b0baa1de7eecab
 }
 
 
@@ -26,10 +41,16 @@ h3
 
 p
 {
+<<<<<<< HEAD
     font-size: 20px
 }
 
 
+=======
+    color: white;
+}
+
+>>>>>>> e2552418eea2fb0c97f9966d50b0baa1de7eecab
 .background-green
 {
     background-color: #72BF78;
@@ -38,7 +59,11 @@ p
 
 .section-divide
 {
+<<<<<<< HEAD
     margin: 1rem 0rem 6rem;
+=======
+    margin: 5rem 0rem;
+>>>>>>> e2552418eea2fb0c97f9966d50b0baa1de7eecab
 }
 
 .center
@@ -47,6 +72,7 @@ p
     justify-content: center;
 }
 
+<<<<<<< HEAD
 .between
 {
     display: flex;
@@ -91,3 +117,161 @@ p
     background-color: #72bf78b0;
 }
 /* --------------------------- Card Section End */
+=======
+/* Body --- --- --- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar --- --- --- */
+
+.navbar-container {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: #E3BE78;
+    border-bottom: 3px solid #FDE37A;
+    padding: 0 1rem;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+    z-index: 2;
+}
+
+.navbar-links {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+.brand-title a {
+    text-decoration: none;
+    color: #E7C436;
+}
+
+.brand-logo {
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, .400);
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #526E48;
+    padding: 3rem 1rem 2rem;
+    display: block;
+}
+
+.navbar-links li a:hover {
+    color: #FDE37A;
+    transition: .3s all;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #E7C436;
+    border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        position: static;
+        display: none;
+        width: 100%;
+        transform: none;
+    }
+
+    .navbar-container {
+        flex-direction: column ;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links li a:hover {
+        color: white;
+        background-color: #E3BE78;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+/* Navbar End --- --- --- */
+
+
+
+
+
+/* Home Page --- --- --- */
+
+
+
+
+
+/* Service Page --- --- --- */
+
+
+
+
+
+/* Price Page --- --- --- */
+
+
+
+
+
+/* Contact Page --- --- --- */
+>>>>>>> e2552418eea2fb0c97f9966d50b0baa1de7eecab
