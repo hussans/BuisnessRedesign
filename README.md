@@ -6,5 +6,5 @@
 **Peer**:
 **Review**: 
 
-GitHub: https://github.com/hussans/BuisnessRedesign
-Figma: https://www.figma.com/design/QCdXuR7ITdGiT0pQqCiSOe/Untitled?node-id=0-1&t=04B6sBje6jPOuTi2-1
+GitHub: https://github.com/hussans/BusinessRedesign
+Figma: https://www.figma.com/design/QCdXuR7ITdGiT0pQqCiSOe/Business-Redesign?node-id=0-1&t=04B6sBje6jPOuTi2-1
