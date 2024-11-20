@@ -189,7 +189,17 @@ p
 
 /* Navbar End --- --- --- */
 
+/* Footer --- --- --- */
 
+.footer-container {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: .75rem;
+    background-color: #FDE37A;
+    color: #526E48;
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+}
 
 /* --------------------------- Home Page (Index) Start -------------------------*/
 
