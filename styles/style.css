@@ -67,6 +67,7 @@ body {
 }
 
 /* Navbar --- --- --- */
+
 .navbar-container {
     position: sticky;
     display: flex;
@@ -75,17 +76,27 @@ body {
     background-color: white;
     color: #E3BE78;
     border-bottom: 3px solid #FDE37A;
+    padding: 0 1rem;
 }
 
 .brand-title {
     font-size: 1.5rem;
     margin: .5rem;
+    z-index: 2;
+}
+
+.navbar-links {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
 }
 
 .navbar-links ul {
     margin: 0;
     padding: 0;
-    display: flex;
+    display: inline-flex;
 }
 
 .brand-title a {
@@ -99,9 +110,11 @@ body {
 
 .navbar-links li a {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
     text-decoration: none;
     color: #526E48;
-    padding: 1rem;
+    padding: 3rem 1rem 2rem;
     display: block;
 }
 
@@ -128,14 +141,16 @@ body {
     border-radius: 10px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .toggle-button {
         display: flex;
     }
 
     .navbar-links {
+        position: static;
         display: none;
         width: 100%;
+        transform: none;
     }
 
     .navbar-container {
@@ -165,6 +180,8 @@ body {
         display: flex;
     }
 }
+
+/* Navbar End --- --- --- */
 
 
 
