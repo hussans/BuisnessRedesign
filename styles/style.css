@@ -188,26 +188,31 @@ body {
 
 /* Navbar End --- --- --- */
 
+/* Footer --- --- --- */
 
+.footer-container {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: .75rem;
+    background-color: #FDE37A;
+    color: #526E48;
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+}
 
+.footer-row-one {
+    text-align: center;
+}
 
+.footer-row-two {
+    text-align: center;
+}
 
-/* Home Page --- --- --- */
+@media (max-width: 700px) {
+    .footer-display {
+        display: none;
+    }
 
+}
 
-
-
-
-/* Service Page --- --- --- */
-
-
-
-
-
-/* Price Page --- --- --- */
-
-
-
-
-
-/* Contact Page --- --- --- */
+/* Footer End --- --- --- */
