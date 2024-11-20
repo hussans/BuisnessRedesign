@@ -1,3 +1,7 @@
+/* Styles */
+@import url(contact.css);
+@import url(price.css);
+@import url(services.css);
 /* Fonts --- --- --- */
 
 /* Roboto Font --- --- */
@@ -6,6 +10,49 @@
 @font-face{
     font-family: Roboto;
     src: url('../assets/fonts/Roboto-Regular.ttf');
+}
+
+
+h1
+{
+    font-size: 64px;
+    color: white;
+}
+
+h2
+{
+    font-size: 40px;
+    color: white;
+
+}
+
+h3
+{
+    font-size: 36px;
+    color: white;
+
+}
+
+p
+{
+    color: white;
+}
+
+.background-green
+{
+    background-color: #72BF78;
+    border-radius: 15px;
+}
+
+.section-divide
+{
+    margin: 5rem 0rem;
+}
+
+.center
+{
+    display: flex;
+    justify-content: center;
 }
 
 /* Body --- --- --- */
