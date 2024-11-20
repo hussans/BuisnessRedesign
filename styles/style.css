@@ -104,6 +104,11 @@ body {
     color: #E7C436;
 }
 
+.brand-logo {
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, .400);
+}
+
 .navbar-links li {
     list-style: none;
 }
@@ -111,7 +116,7 @@ body {
 .navbar-links li a {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 300;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: #526E48;
     padding: 3rem 1rem 2rem;
@@ -125,7 +130,7 @@ body {
 
 .toggle-button {
     position: absolute;
-    top: 1rem;
+    top: 2rem;
     right: 1rem;
     display: none;
     flex-direction: column;
