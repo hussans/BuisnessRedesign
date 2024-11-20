@@ -1,0 +1,62 @@
+body
+{
+    background-color: rgb(32, 32, 77);
+}
+
+
+
+h1
+{
+    font-size: 64px;
+    color: white;
+}
+
+h2
+{
+    font-size: 40px;
+    color: white;
+
+}
+
+h3
+{
+    font-size: 36px;
+    color: white;
+
+}
+
+p
+{
+    color: white;
+}
+
+
+.background-green
+{
+    background-color: #72BF78;
+    border-radius: 15px;
+}
+
+.section-divide
+{
+    margin: 5rem 0rem;
+}
+
+.center
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* --------------------------- Home Page (Index) Start -------------------------*/
+
+.seperation-header
+{
+    color: white;
+    background-color: #FFD993;
+}
+
+
+
+
+/* --------------------------- Home Page (Index) End ---------------------------*/
