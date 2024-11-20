@@ -1,4 +1,4 @@
-**Name**: Hassan Sajid, Nathan, Andrew
+**Name**: Hassan Sajid, Chainarung Nathan Dechyothin, and Andrew Sayasing
 **Date**: Nov 19th, 2024
 **Project Name**: Buisness Redesign
 **Description**: Taking a local business called "Q Summer Spa", we took their old outdated website and made a all new refreshed one. The site is fully responsive accounting for mobile, tablet, and desktop users.
