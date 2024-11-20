@@ -38,7 +38,7 @@ p
 
 .section-divide
 {
-    margin: 5rem 0rem;
+    margin: 1rem 0rem 6rem;
 }
 
 .center
@@ -64,6 +64,18 @@ p
 {
     background-color: #FFD993;
     padding: 5px;
+}
+
+.hero-image
+{
+    object-fit: contain;
+}
+
+.absolute-text
+{
+    position: absolute;
+    background-color: #FFD993;
+     
 }
 
 /* --------------------------- Card Section Start */
