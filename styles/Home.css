@@ -12,12 +12,6 @@
     src: url('../assets/fonts/Roboto-Regular.ttf');
 }
 
-bod
-{
-    background-color: rgb(32, 32, 77);
-}
-
-
 h1
 {
     font-size: 64px;
@@ -28,7 +22,6 @@ h2
 {
     font-size: 40px;
     color: white;
-
 }
 
 h3
@@ -38,6 +31,11 @@ h3
 
 }
 
+h4
+{
+    font-size: 40px;
+}
+
 p
 {
     font-size: 20px
@@ -45,9 +43,8 @@ p
 
 .background-green
 {
-    background-color: #72BF78;
+    background-color: #3bcf48;
     border-radius: 20px;
-    padding: 1rem;
 }
 
 .section-divide
@@ -58,7 +55,8 @@ p
 .fnt-text
 {
     font-size: 37px;
-    color: rgba(255, 255, 255, 0.893);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
 }
 
 .center
@@ -72,6 +70,7 @@ p
     display: flex;
     justify-content: space-between;
 }
+
 
 /* Navbar --- --- --- */
 
@@ -195,6 +194,8 @@ p
 
 /* Navbar End --- --- --- */
 
+
+
 /* --------------------------- Home Page (Index) Start -------------------------*/
 
 .seperation-header
@@ -206,33 +207,62 @@ p
 .serperate
 {
     background-color: #FFD993;
-    padding: 5px;
+    padding: 3px;
+    margin: 6rem 0rem 5rem 0rem;
 }
 
 .hero-image
 {
-    object-fit: contain;
-    height: auto;
-    
+
 }
 
-.absolute-text
+.absolute-call
 {
     position: absolute;
-    background-color: #FFD993;
-}
-
-/* Intro PAge */
-.picture-header
-{
-    background-color: #72BF78;
+    padding: 0rem 2rem 0rem 2rem;
     color: white;
-    
+    background-color: #FFD993;
+    font-style: italic;
+    left: 3%;
+    top: 10%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.384);
+    box-shadow: black;
 }
 
+.section1-grid
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+}
 
+.masseuses-header
+{
+    border-radius: 10px;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-weight: light;
+    background-color: #3cd349;
+    color: white; 
+}
 
+.carasol-image
+{
+    height: 900px;
+    object-fit: cover;
+    border-radius: 15px;
+}
 
+.card-border
+{
+    border-radius: 15px;
+}
 /* --------------------------- Card Section Start */
 .card-grid
 {
@@ -243,7 +273,12 @@ p
 
 .card-green
 {
-    background-color: #72bf78b0;
+    background-color: #53db5e98;
+}
+
+.card-text
+{
+    font-weight: bold;
 }
 
 @media (max-width: 700px)
