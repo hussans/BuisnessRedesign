@@ -197,7 +197,7 @@ body {
     color: #526E48;
     padding: 25px;
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
 }
 
 .footer-row-one {
