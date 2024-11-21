@@ -43,16 +43,22 @@ p
     font-size: 20px
 }
 
-
 .background-green
 {
     background-color: #72BF78;
-    border-radius: 15px;
+    border-radius: 20px;
+    padding: 1rem;
 }
 
 .section-divide
 {
-    margin: 0rem 0rem 6rem;
+    margin: 0rem 0rem 4rem;
+}
+
+.fnt-text
+{
+    font-size: 37px;
+    color: rgba(255, 255, 255, 0.893);
 }
 
 .center
@@ -189,18 +195,6 @@ p
 
 /* Navbar End --- --- --- */
 
-/* Footer --- --- --- */
-
-.footer-container {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: .75rem;
-    background-color: #FDE37A;
-    color: #526E48;
-    padding: 25px;
-    position: absolute;
-    bottom: 0;
-}
-
 /* --------------------------- Home Page (Index) Start -------------------------*/
 
 .seperation-header
@@ -218,14 +212,26 @@ p
 .hero-image
 {
     object-fit: contain;
+    height: auto;
+    
 }
 
 .absolute-text
 {
     position: absolute;
     background-color: #FFD993;
-     
 }
+
+/* Intro PAge */
+.picture-header
+{
+    background-color: #72BF78;
+    color: white;
+    
+}
+
+
+
 
 /* --------------------------- Card Section Start */
 .card-grid
@@ -239,6 +245,14 @@ p
 {
     background-color: #72bf78b0;
 }
+
+@media (max-width: 700px)
+{
+    .tablet-card
+    {
+        
+    }   
+}
 /* --------------------------- Card Section End */
 
 
@@ -251,7 +265,6 @@ p
     color: #526E48;
     padding: 25px;
     position: absolute;
-    bottom: 0;
 }
 
 .footer-row-one {
