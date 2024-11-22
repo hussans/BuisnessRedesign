@@ -250,7 +250,7 @@ p
 
 .background-green
 {
-    background-color: #10d662;
+    background-color: #72BF78;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(70, 118, 54, 0.347); 
 
@@ -264,7 +264,7 @@ p
     justify-content: center;
     align-items: center;
     font-weight: 400;
-    background-color: #10d662;
+    background-color: #72BF78;
     color: white; 
     margin-bottom: 1rem;
     padding: 3px;
@@ -307,7 +307,7 @@ p
 }
 
 .text-container {
-    background-color: rgb(76, 209, 76); 
+    background-color: #72BF78; 
     color: rgb(255, 255, 255);
     padding: 2rem 3rem;
     border-radius: 10px; 
@@ -389,7 +389,7 @@ p
 
 .card-text
 {
-    font-weight: bold;
+    font-weight: 500;
 }
 
 @media (max-width: 1000px)
