@@ -41,22 +41,17 @@ p
     font-size: 20px
 }
 
-.background-green
-{
-    background-color: #3bcf48;
-    border-radius: 20px;
-}
-
 .section-divide
 {
     margin: 0rem 0rem 4rem;
 }
 
-.fnt-text
+.body-text
 {
     font-size: 37px;
     color: rgb(255, 255, 255);
-    font-weight: bold;
+    text-align: center;
+    font-weight: 200;
 }
 
 .center
@@ -196,48 +191,13 @@ p
 
 
 
-/* --------------------------- Home Page (Index) Start -------------------------*/
+/* --------------------------- Grand Opening Start -------------------------*/
 
-.seperation-header
+
+.background-green
 {
-    color: white;
-    background-color: #FFD993;
-}
-
-.serperate
-{
-    background-color: #FFD993;
-    padding: 3px;
-    margin: 6rem 0rem 5rem 0rem;
-}
-
-.hero-image
-{
-
-}
-
-.absolute-call
-{
-    position: absolute;
-    padding: 0rem 2rem 0rem 2rem;
-    color: white;
-    background-color: #FFD993;
-    font-style: italic;
-    left: 3%;
-    top: 10%;
+    background-color: #10d662;
     border-radius: 15px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.384);
-    box-shadow: black;
-}
-
-.section1-grid
-{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 50px;
-    align-items: center;
 }
 
 .masseuses-header
@@ -252,18 +212,70 @@ p
     color: white; 
 }
 
-.carasol-image
+.seperation-header
 {
-    height: 900px;
-    object-fit: cover;
-    border-radius: 15px;
+    color: white;
+    background-color: #e0ba73d8;
+    font-style: oblique;
 }
+
+.serperate
+{
+    background-color: #e0ba73d8;
+    padding: 3px;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+.grand-opening-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.text-container {
+    background-color: #3dcc3d; 
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    height: 100%;
+}
+
+.carousal-ImageCSS
+{
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+
+}
+
+@media (max-width: 1215px)
+{
+    .grand-opening-grid
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+}
+
+/* --------------------------- Grand Opening End -------------------------*/
+
+/* Card Start */
 
 .card-border
 {
     border-radius: 15px;
 }
-/* --------------------------- Card Section Start */
+
+.card-img-top
+{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
 .card-grid
 {
     display: grid;
@@ -318,3 +330,74 @@ p
 }
 
 /* Footer End --- --- --- */
+
+
+/* Test */
+
+  .absolute-call
+  {
+      padding: 0rem 2rem 0rem 2rem;
+      color: white;
+      background-color: #FFD993;
+      font-style: italic;
+      left: 3%;
+      top: 10%;
+      border-radius: 15px;
+      border-style: solid;
+      border-color: rgba(0, 0, 0, 0.384);
+      box-shadow: black;
+  }
+
+.color1
+{
+    color: #FFD993;
+}
+
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 80vh;
+    padding: 0rem 10rem;
+    background: url('../assets/homepage/hero.jpg') no-repeat center center/cover; 
+}
+
+.hero-image{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+/* Tablet*/
+@media (max-width: 768px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        text-align: center;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+}
+
+/* Large Smartphone */
+@media (max-width: 425px) {
+    .hero-grid {
+    padding: 11rem 1rem 0rem;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+}
