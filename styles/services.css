@@ -4,7 +4,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr auto auto 1fr auto auto 1fr auto auto 1fr;
     gap: 2%;
-    margin: 5% 0 100px 0;
+    margin: 5% 0 250px 0;
     width: auto;
 
 }
@@ -98,12 +98,12 @@
     text-shadow: 0px 4px 4px rgb(0, 0, 0, .250);
 
     position: absolute;
-    top: 50%;
+    top: 23%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.service-container {
+.service-container{
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -112,7 +112,7 @@
 
 @media (max-width:1399.98px){
     .service-grid{
-        margin-bottom: 250px;
+        margin-bottom: 325px;
     }
 }
 
@@ -123,7 +123,14 @@
         gap: 1%;
         margin-bottom: 450px;
     }
-
+    .service-container{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .header-container{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
     .service-img1{
         grid-row: 2;
     }
@@ -158,6 +165,7 @@
 
 @media (max-width: 767.98px){
     
+
     .service-grid{
         margin-bottom: 400px;
     }
@@ -180,5 +188,19 @@
     .service-spacing{
         width: auto;
         margin: 0px 30px 0px 30px;
+    }
+    .service-grid{
+        margin-bottom: 400px;
+    }
+}
+
+@media (max-width:549.98px){
+    .service-grid{
+        margin-bottom: 300px;
+    }
+}
+@media (max-width:527.98px){
+    .service-grid{
+        margin-bottom: 150px;
     }
 }
