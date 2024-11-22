@@ -238,19 +238,31 @@ p
 .text-container {
     background-color: #3dcc3d; 
     color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 3rem;
     border-radius: 10px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     text-align: center;
     height: 100%;
 }
 
+.text-fit1
+{
+    font-size: 30px;
+}
 .carousal-ImageCSS
 {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-
 }
+
+@media (max-width: 1650px)
+{
+    .text-fit1
+{
+    font-size: 20px;
+}
+}
+
 
 @media (max-width: 1215px)
 {
@@ -264,6 +276,10 @@ p
 /* --------------------------- Grand Opening End -------------------------*/
 
 /* Card Start */
+
+
+
+
 
 .card-border
 {
@@ -334,7 +350,7 @@ p
 
 /* Test */
 
-  .absolute-call
+  /* .absolute-call
   {
       padding: 0rem 2rem 0rem 2rem;
       color: white;
@@ -346,7 +362,7 @@ p
       border-style: solid;
       border-color: rgba(0, 0, 0, 0.384);
       box-shadow: black;
-  }
+  } */
 
 .color1
 {
