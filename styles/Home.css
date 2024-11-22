@@ -289,6 +289,14 @@ p
     margin-bottom: 4rem;
 }
 
+.serperate2
+{
+    background-color: #e0ba73d8;
+    padding: 3px;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
 .grand-opening-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
