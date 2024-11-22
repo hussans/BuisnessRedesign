@@ -9,16 +9,39 @@
 
 /* Fonts End --- --- --- */
 
+body {
+
+}
+
 /* Title --- --- --- */
+
+.header-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+    
+}
 
 .title-text {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 3rem;
-    color: #526E48;
+    color: #FBC850;
     text-align: center;
+    text-shadow: 0px 4px 4px rgb(0, 0, 0, .250);
 
-    margin-top: 50px;
-    margin-bottom: 50px;
+    position: absolute;
+    bottom: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.price-header {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+    position: relative;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, .250);
 }
 
 /* Title End --- --- --- */
@@ -44,7 +67,10 @@
     color: white;
 
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, .250);
+    text-shadow: 0px 2px 2px rgb(0, 0, 0, .100);
+
 
 }
 
@@ -53,7 +79,8 @@
     height: 600px;
     object-fit: cover;
 
-    border-radius: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, .250);
 }
 
 .price-grid {
@@ -61,6 +88,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr;
     column-gap: 5%;
+    
 }
 
 .price-image {
@@ -77,6 +105,7 @@
     font-weight: 450;
     text-align: center;
     color: white;
+    text-shadow: 0px 1px 1px rgb(0, 0, 0, .100);
 
     background-color: #72BF78;
     border-radius: 15px;
@@ -84,6 +113,8 @@
     padding-bottom: 50px;
 
     align-items: center;
+    box-shadow: 0px 4px 4px rgb(0, 0, 0, .250);
+
 }
 
 /* Body Content End --- --- --- */
@@ -95,6 +126,12 @@
 /* Tablet Responsiveness --- --- */
 
 @media (max-width: 991px){
+
+    .header-container {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 50px;
+    }
 
     .body-container {
         padding-left: 5px;
@@ -108,6 +145,13 @@
 }
 
 @media (max-width: 768px){
+    
+    .header-container {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 50px;
+    }
+
     .body-container {
         padding-left: 50px;
         padding-right: 50px;
