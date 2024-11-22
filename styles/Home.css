@@ -1,0 +1,423 @@
+/* Styles */
+@import url(contact.css);
+@import url(price.css);
+@import url(services.css);
+/* Fonts --- --- --- */
+
+/* Roboto Font --- --- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face{
+    font-family: Roboto;
+    src: url('../assets/fonts/Roboto-Regular.ttf');
+}
+
+h1
+{
+    font-size: 64px;
+    color: white;
+}
+
+h2
+{
+    font-size: 40px;
+    color: white;
+}
+
+h3
+{
+    font-size: 36px;
+    color: white;
+
+}
+
+h4
+{
+    font-size: 40px;
+}
+
+p
+{
+    font-size: 20px
+}
+
+.section-divide
+{
+    margin: 0rem 0rem 4rem;
+}
+
+.body-text
+{
+    font-size: 37px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 200;
+}
+
+.center
+{
+    display: flex;
+    justify-content: center;
+}
+
+.between
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Navbar --- --- --- */
+
+.navbar-container {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: #E3BE78;
+    border-bottom: 3px solid #FDE37A;
+    padding: 0 1rem;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+    z-index: 2;
+}
+
+.navbar-links {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+}
+
+.brand-title a {
+    text-decoration: none;
+    color: #E7C436;
+}
+
+.brand-logo {
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0, .400);
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #526E48;
+    padding: 3rem 1rem 2rem;
+    display: block;
+}
+
+.navbar-links li a:hover {
+    color: #FDE37A;
+    transition: .3s all;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #E7C436;
+    border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        position: static;
+        display: none;
+        width: 100%;
+        transform: none;
+    }
+
+    .navbar-container {
+        flex-direction: column ;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links li a:hover {
+        color: white;
+        background-color: #E3BE78;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+/* Navbar End --- --- --- */
+
+/* Hero Image start */
+
+.color1
+{
+    color: #FFD993;
+}
+
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 80vh;
+    padding: 0rem 10rem;
+    background: url('../assets/homepage/hero.jpg') no-repeat center center/cover; 
+}
+
+.hero-image{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+/* Tablet*/
+@media (max-width: 768px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        text-align: center;
+        padding-top: 4rem;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+}
+
+/* Large Smartphone */
+@media (max-width: 590px) {
+    .hero-grid {
+    padding: 2rem 1rem 0rem;
+    font-size: 20px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+}
+
+/* Hero Image End */
+
+/* --------------------------- Grand Opening Start -------------------------*/
+
+
+.background-green
+{
+    background-color: #10d662;
+    border-radius: 15px;
+}
+
+.masseuses-header
+{
+    border-radius: 10px;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-weight: light;
+    background-color: #3cd349;
+    color: white; 
+}
+
+.seperation-header
+{
+    color: white;
+    background-color: #e0ba73d8;
+    font-style: oblique;
+}
+
+.serperate
+{
+    background-color: #e0ba73d8;
+    padding: 3px;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
+.grand-opening-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.text-container {
+    background-color: #3dcc3d; 
+    color: rgb(255, 255, 255);
+    padding: 3rem;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    height: 100%;
+}
+
+.text-fit1
+{
+    font-size: 30px;
+}
+.carousal-ImageCSS
+{
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+@media (max-width: 1650px)
+{
+    .text-fit1
+{
+    font-size: 20px;
+}
+}
+
+
+@media (max-width: 1215px)
+{
+    .grand-opening-grid
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+}
+
+/* --------------------------- Grand Opening End -------------------------*/
+
+/* Card Start */
+
+/* ---------------- */
+.card-border
+{
+    border-radius: 15px;
+}
+
+.card-img-top
+{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.card-grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card-green
+{
+    background-color: #53db5e98;
+}
+
+.card-text
+{
+    font-weight: bold;
+}
+
+@media (max-width: 1000px)
+{
+    .card-grid
+    {
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, 1fr) ;
+    }   
+}
+/* --------------------------- Card Section End */
+
+
+/* Footer --- --- --- */
+
+.footer-container {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: .75rem;
+    background-color: #FDE37A;
+    color: #526E48;
+    padding: 25px;
+    position: absolute;
+}
+
+.footer-row-one {
+    text-align: center;
+}
+
+.footer-row-two {
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .footer-display {
+        display: none;
+    }
+
+}
+
+/* Footer End --- --- --- */
+
+
+/* Test */
+
+  /* .absolute-call
+  {
+      padding: 0rem 2rem 0rem 2rem;
+      color: white;
+      background-color: #FFD993;
+      font-style: italic;
+      left: 3%;
+      top: 10%;
+      border-radius: 15px;
+      border-style: solid;
+      border-color: rgba(0, 0, 0, 0.384);
+      box-shadow: black;
+  } */
+
+
