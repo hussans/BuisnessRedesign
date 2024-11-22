@@ -3,3 +3,13 @@
     border-radius: 15px;
     outline: 1.5px solid #E1E1E1;
 }
+
+.contact-container {
+    width: 100%;
+}
+
+.info-col {
+    background-color: #72BF78;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
