@@ -16,12 +16,14 @@ h1
 {
     font-size: 64px;
     color: white;
+    font-weight: 300;
 }
 
 h2
 {
     font-size: 40px;
     color: white;
+    font-weight: 400;
 }
 
 h3
@@ -39,11 +41,6 @@ h4
 p
 {
     font-size: 20px
-}
-
-.section-divide
-{
-    margin: 0rem 0rem 4rem;
 }
 
 .body-text
@@ -251,30 +248,37 @@ p
 
 /* --------------------------- Grand Opening Start -------------------------*/
 
-
 .background-green
 {
     background-color: #10d662;
     border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(70, 118, 54, 0.347); 
+
 }
 
 .masseuses-header
 {
-    border-radius: 10px;
-    font-size: 26px;
+    border-radius: 5px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
-    align-items: end;
-    font-weight: light;
-    background-color: #3cd349;
+    align-items: center;
+    font-weight: 400;
+    background-color: #10d662;
     color: white; 
+    margin-bottom: 1rem;
+    padding: 3px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.219); 
+
 }
 
 .seperation-header
 {
     color: white;
-    background-color: #e0ba73d8;
+    background-color: #e0ba73ac;
     font-style: oblique;
+    padding: 1rem;
+    margin-bottom: 8rem;
 }
 
 .serperate
@@ -285,18 +289,27 @@ p
     margin-bottom: 4rem;
 }
 
+.serperate2
+{
+    background-color: #e0ba73d8;
+    padding: 3px;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+
 .grand-opening-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px; 
+    grid-template-rows: repeat(2 1fr);
+    gap: 40px; 
     align-items: center; 
     padding: 20px;
 }
 
 .text-container {
-    background-color: #3dcc3d; 
+    background-color: rgb(76, 209, 76); 
     color: rgb(255, 255, 255);
-    padding: 3rem;
+    padding: 2rem 3rem;
     border-radius: 10px; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     text-align: center;
@@ -329,13 +342,27 @@ p
         grid-template-columns: 1fr;
         grid-template-rows: 2fr;
     }
+
+    h1
+    {
+        font-size: 40px;
+    }
+    .seperation-header
+    {
+        padding: 1px;
+        font-size: 10px;
+        margin-bottom: 5rem;
+    }
 }
 
 /* --------------------------- Grand Opening End -------------------------*/
 
-/* Card Start */
+/* ------------------------------Card Start ---------------------*/
 
-/* ---------------- */
+.grad {
+    background-image: linear-gradient(180deg, #53db5e98, rgb(117, 117, 18));
+  }
+
 .card-border
 {
     border-radius: 15px;
