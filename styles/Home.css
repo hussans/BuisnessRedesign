@@ -189,7 +189,65 @@ p
 
 /* Navbar End --- --- --- */
 
+/* Hero Image start */
 
+.color1
+{
+    color: #FFD993;
+}
+
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 80vh;
+    padding: 0rem 10rem;
+    background: url('../assets/homepage/hero.jpg') no-repeat center center/cover; 
+}
+
+.hero-image{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+/* Tablet*/
+@media (max-width: 768px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        text-align: center;
+        padding-top: 4rem;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+}
+
+/* Large Smartphone */
+@media (max-width: 590px) {
+    .hero-grid {
+    padding: 2rem 1rem 0rem;
+    font-size: 20px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+}
+
+/* Hero Image End */
 
 /* --------------------------- Grand Opening Start -------------------------*/
 
@@ -277,10 +335,7 @@ p
 
 /* Card Start */
 
-
-
-
-
+/* ---------------- */
 .card-border
 {
     border-radius: 15px;
@@ -309,11 +364,12 @@ p
     font-weight: bold;
 }
 
-@media (max-width: 700px)
+@media (max-width: 1000px)
 {
-    .tablet-card
+    .card-grid
     {
-        
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, 1fr) ;
     }   
 }
 /* --------------------------- Card Section End */
@@ -364,56 +420,4 @@ p
       box-shadow: black;
   } */
 
-.color1
-{
-    color: #FFD993;
-}
 
-
-.hero-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    height: 80vh;
-    padding: 0rem 10rem;
-    background: url('../assets/homepage/hero.jpg') no-repeat center center/cover; 
-}
-
-.hero-image{
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    border-radius: 10px;
-}
-
-.hero-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-}
-
-/* Tablet*/
-@media (max-width: 768px) {
-    .hero-grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        text-align: center;
-    }
-
-    .hero-content {
-        text-align: center;
-    }
-}
-
-/* Large Smartphone */
-@media (max-width: 425px) {
-    .hero-grid {
-    padding: 11rem 1rem 0rem;
-    }
-
-    .hero-content {
-        text-align: center;
-    }
-
-}
